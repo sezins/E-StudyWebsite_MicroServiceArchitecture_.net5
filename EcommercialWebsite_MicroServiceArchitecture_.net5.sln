@@ -14,6 +14,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 		TextFile1.txt = TextFile1.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{D440464C-8614-4835-A728-0ADBBE48C6C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\ClassLibrary1\Shared.csproj", "{C58444E0-D668-47CF-8A81-303961D40580}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +28,10 @@ Global
 		{77DD5EAC-2A3C-4D8A-B592-880FB7BF22C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77DD5EAC-2A3C-4D8A-B592-880FB7BF22C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77DD5EAC-2A3C-4D8A-B592-880FB7BF22C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C58444E0-D668-47CF-8A81-303961D40580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C58444E0-D668-47CF-8A81-303961D40580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C58444E0-D668-47CF-8A81-303961D40580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C58444E0-D668-47CF-8A81-303961D40580}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -31,6 +39,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{99FC6847-3B61-404B-9FD7-C4FD63AE4554} = {6F7DB55E-9293-4289-B80E-A37187662CE1}
 		{77DD5EAC-2A3C-4D8A-B592-880FB7BF22C9} = {99FC6847-3B61-404B-9FD7-C4FD63AE4554}
+		{C58444E0-D668-47CF-8A81-303961D40580} = {D440464C-8614-4835-A728-0ADBBE48C6C9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E18592D-A96A-4FFF-A53B-F20ACBFB080D}
