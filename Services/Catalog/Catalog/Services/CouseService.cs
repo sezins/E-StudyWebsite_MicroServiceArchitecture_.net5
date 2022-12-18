@@ -8,6 +8,8 @@ namespace Catalog.Services
     {
         private readonly IMongoCollection<Course> _courseCollection;
 
+        public int MyProperty { get; set; }
+
         private readonly IMapper _mapper;
         public CouseService()
         {
