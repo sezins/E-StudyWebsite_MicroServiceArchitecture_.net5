@@ -13,7 +13,7 @@ namespace Catalog.Services
         private readonly IMapper _mapper;
         public CouseService()
         {
-
+            //
         }
     }
 }
