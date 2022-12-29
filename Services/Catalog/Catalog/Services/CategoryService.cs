@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Catalog.Services
 {
-    internal class CategoryService: ICategoryService
+    public class CategoryService: ICategoryService
     {
         private readonly IMongoCollection<Category> _categoryCollection;
 
@@ -17,7 +17,7 @@ namespace Catalog.Services
 
         public CategoryService(IMapper mapper,IDatabaseSettings databaseSettings)
         {
-            var client = new MongoClient(databaseSettings.CoonectionString);
+            var client = new MongoClient(databaseSettings.ConnectionString);
 
             var database=client.GetDatabase(databaseSettings.DatabaseName);
 
