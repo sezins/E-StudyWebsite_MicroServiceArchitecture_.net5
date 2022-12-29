@@ -1,2 +1,5 @@
 SERVÝCES
 -CatalogAPI:5011
+
+
+Portainer þifre :Fas16021992? Kullanýcý adý:admin
